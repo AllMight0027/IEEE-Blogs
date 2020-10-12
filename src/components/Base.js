@@ -101,24 +101,29 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
           <ul class="navbar-nav ml-auto flex-nowrap text-left">
             <li class="nav-item">
               <a
-                  className="text-white nav-link"
-                  style={{ paddingTop: "18px", cursor: "pointer" }}
-                  href='/#about'
-                >
-                  <img src="https://img.icons8.com/ios/150/ffffff/about.png" style={{height:'28px'}} />
-                  &nbsp;&nbsp;About Us
-                </a>
-              
+                className="text-white nav-link"
+                style={{ paddingTop: "18px", cursor: "pointer" }}
+                href="/#about"
+              >
+                <img
+                  src="https://img.icons8.com/ios/150/ffffff/about.png"
+                  style={{ height: "28px" }}
+                />
+                &nbsp;&nbsp;About Us
+              </a>
             </li>
             <li class="nav-item">
-               <a
-                  className="text-white nav-link"
-                  style={{ paddingTop: "18px", cursor: "pointer" }}
-                 href='/#upcoming-events'
-                >
-                  <img src="https://img.icons8.com/ios/150/ffffff/event-accepted-tentatively.png" style={{height:'28px'}} />
-                  &nbsp;&nbsp;Upcoming Events
-                </a>
+              <a
+                className="text-white nav-link"
+                style={{ paddingTop: "18px", cursor: "pointer" }}
+                href="/#upcoming-events"
+              >
+                <img
+                  src="https://img.icons8.com/ios/150/ffffff/event-accepted-tentatively.png"
+                  style={{ height: "28px" }}
+                />
+                &nbsp;&nbsp;Upcoming Events
+              </a>
             </li>
             <li class="nav-item">
               <a
@@ -126,7 +131,10 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                 className="text-white nav-link"
                 style={{ paddingTop: "18px" }}
               >
-                <img src="https://img.icons8.com/ios/150/ffffff/broadcasting.png" style={{height:'28px'}} />
+                <img
+                  src="https://img.icons8.com/ios/150/ffffff/broadcasting.png"
+                  style={{ height: "28px" }}
+                />
                 &nbsp;&nbsp;Domains
               </a>
             </li>
@@ -136,7 +144,10 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                 className="text-white nav-link"
                 style={{ paddingTop: "18px" }}
               >
-                <img src="https://img.icons8.com/ios/150/ffffff/conference.png" style={{height:'28px'}} />
+                <img
+                  src="https://img.icons8.com/ios/150/ffffff/conference.png"
+                  style={{ height: "28px" }}
+                />
                 &nbsp;&nbsp;Our Team
               </a>
             </li>
@@ -168,7 +179,10 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                 aria-expanded="false"
                 style={{ paddingTop: "18px" }}
               >
-                <img src="https://img.icons8.com/ios/150/ffffff/today.png" style={{height:'28px'}} />
+                <img
+                  src="https://img.icons8.com/ios/150/ffffff/today.png"
+                  style={{ height: "28px" }}
+                />
                 &nbsp;&nbsp;Events&nbsp;&nbsp;
               </a>
               <div
